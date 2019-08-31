@@ -42,21 +42,23 @@ const Todo = () => {
   };
 
   return (
-    <div className="todo-container">
-      <div className="header">TODO ITEMS ({tasksRemaining})</div>
-      <div className="tasks">
-        {tasks.map((task, index) => (
-          <Task
-            task={task}
-            index={index}
-            completeTask={completeTask}
-            removeTask={removeTask}
-            key={index}
-          />
-        ))}
-      </div>
-      <div className="create-task">
-        <CreateTask addTask={addTask} />
+    <div className="wrapper">
+      <div className="todo-container">
+        <div className="header">TODO ITEMS ({tasksRemaining})</div>
+        <div className="tasks">
+          {tasks.map((task, index) => (
+            <Task
+              task={task}
+              index={index}
+              completeTask={completeTask}
+              removeTask={removeTask}
+              key={index}
+            />
+          ))}
+        </div>
+        <div className="create-task">
+          <CreateTask addTask={addTask} />
+        </div>
       </div>
     </div>
   );

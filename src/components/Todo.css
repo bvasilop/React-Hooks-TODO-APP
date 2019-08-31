@@ -2,12 +2,11 @@ body {
   background: #0f0e24;
   display: flex;
   justify-content: center;
-  padding-top: 15%;
 }
 
 .todo-container {
   background: #434469;
-  width: 40vw;
+  width: 35rem;
   /* margin: 10em auto; */
   border-radius: 15px;
   padding: 5% 7%;
@@ -46,4 +45,9 @@ body {
   border: none;
   border-radius: 5px;
   padding: 0.7em;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 35%;
 }
