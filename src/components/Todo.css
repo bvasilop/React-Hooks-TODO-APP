@@ -1,13 +1,16 @@
 body {
   background: #0f0e24;
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
 }
 
 .todo-container {
   background: #434469;
   width: 40vw;
-  margin: 10em auto;
+  /* margin: 10em auto; */
   border-radius: 15px;
-  padding: 20px 10px;
+  padding: 5% 7%;
   color: white;
   border: 3px solid rgb(36, 110, 194);
 }
@@ -41,5 +44,6 @@ body {
   width: 80%;
   outline: none;
   border: none;
+  border-radius: 5px;
   padding: 0.7em;
 }

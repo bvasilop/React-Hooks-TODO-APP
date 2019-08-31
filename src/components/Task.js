@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Todo.css';
 
 const  Task = ({ task, index, completeTask, removeTask}) => {
